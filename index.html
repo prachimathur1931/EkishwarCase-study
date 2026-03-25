@@ -1113,121 +1113,21 @@
   <h3 style="font-family:var(--serif);font-size:1.45rem;font-weight:600;color:var(--ink);margin:40px 0 12px;">Lo-Fi Wireframes — Before &amp; After</h3>
   <p style="color:#4A3828;font-size:0.95rem;margin-bottom:28px;">Two key flows tested in round 1. Left shows the original service-browsing entry; right shows the occasion-led redesign that emerged from testing.</p>
 
-  <div class="wireframe-row">
-    <!-- V1 - Old flow -->
-    <div class="wireframe-box">
-      <div class="wireframe-label">V1 — "Browse by Service" (Abandoned)</div>
-      <svg viewBox="0 0 340 500" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;background:#FAFAFA;">
-        <!-- Phone shell -->
-        <rect x="20" y="16" width="300" height="468" rx="16" fill="white" stroke="#DDD" stroke-width="1.5"/>
-        <!-- Status bar -->
-        <rect x="20" y="16" width="300" height="32" rx="16" fill="#F0EBE2"/>
-        <rect x="20" y="32" width="300" height="16" fill="#F0EBE2"/>
-        <text x="35" y="37" font-size="8" fill="#888">9:41</text>
-        <text x="290" y="37" text-anchor="end" font-size="8" fill="#888">●●●</text>
-        <!-- Search bar -->
-        <rect x="36" y="56" width="268" height="28" rx="14" fill="#F5F0E8" stroke="#DDD" stroke-width="1"/>
-        <text x="52" y="74" font-size="9" fill="#AAA">🔍  Search temples, poojas...</text>
-        <!-- Category tabs -->
-        <text x="36" y="102" font-size="9" fill="#C9973A" font-weight="600">BROWSE BY</text>
-        <rect x="36" y="108" width="72" height="22" rx="11" fill="#E8740C"/>
-        <text x="72" y="123" text-anchor="middle" font-size="8" fill="white">Poojas</text>
-        <rect x="116" y="108" width="72" height="22" rx="11" fill="#F5F0E8" stroke="#DDD" stroke-width="1"/>
-        <text x="152" y="123" text-anchor="middle" font-size="8" fill="#888">Temples</text>
-        <rect x="196" y="108" width="72" height="22" rx="11" fill="#F5F0E8" stroke="#DDD" stroke-width="1"/>
-        <text x="232" y="123" text-anchor="middle" font-size="8" fill="#888">Priests</text>
-        <!-- Long scrolling list — overwhelming -->
-        <text x="36" y="150" font-size="9" fill="#888">Showing 847 poojas</text>
-        <!-- list items -->
-        <rect x="36" y="158" width="268" height="48" rx="6" fill="#F9F5EE" stroke="#EEE" stroke-width="1"/>
-        <rect x="44" y="166" width="32" height="32" rx="4" fill="#DDD"/>
-        <text x="84" y="178" font-size="9" fill="#333" font-weight="600">Satyanarayan Puja</text>
-        <text x="84" y="191" font-size="8" fill="#888">₹1,100 · 1.5 hrs</text>
-        <rect x="36" y="212" width="268" height="48" rx="6" fill="#F9F5EE" stroke="#EEE" stroke-width="1"/>
-        <rect x="44" y="220" width="32" height="32" rx="4" fill="#DDD"/>
-        <text x="84" y="232" font-size="9" fill="#333" font-weight="600">Ganesh Puja</text>
-        <text x="84" y="245" font-size="8" fill="#888">₹800 · 1 hr</text>
-        <rect x="36" y="266" width="268" height="48" rx="6" fill="#F9F5EE" stroke="#EEE" stroke-width="1"/>
-        <rect x="44" y="274" width="32" height="32" rx="4" fill="#DDD"/>
-        <text x="84" y="286" font-size="9" fill="#333" font-weight="600">Rudrabhishek Puja</text>
-        <text x="84" y="299" font-size="8" fill="#888">₹2,500 · 3 hrs</text>
-        <rect x="36" y="320" width="268" height="48" rx="6" fill="#F9F5EE" stroke="#EEE" stroke-width="1"/>
-        <rect x="44" y="328" width="32" height="32" rx="4" fill="#DDD"/>
-        <text x="84" y="340" font-size="9" fill="#333" font-weight="600">Navgraha Puja</text>
-        <text x="84" y="353" font-size="8" fill="#888">₹1,800 · 2 hrs</text>
-        <rect x="36" y="374" width="268" height="48" rx="6" fill="#F9F5EE" stroke="#EEE" stroke-width="1"/>
-        <rect x="44" y="382" width="32" height="32" rx="4" fill="#DDD"/>
-        <text x="84" y="394" font-size="9" fill="#333" font-weight="600">Hanuman Puja</text>
-        <text x="84" y="407" font-size="8" fill="#888">₹600 · 45 min</text>
-        <!-- Abandon indicator -->
-        <rect x="36" y="434" width="268" height="34" rx="6" fill="#FDECEA"/>
-        <text x="170" y="455" text-anchor="middle" font-size="8.5" fill="#C04040">⚠ 71% users dropped off here</text>
-      </svg>
+ <div class="wireframe-row">
+  
+  <div class="wireframe-box">
+    <div class="wireframe-label">
+      Wireframe Comparison (V1 vs V2)
     </div>
 
-    <!-- V2 - New occasion-led flow -->
-    <div class="wireframe-box">
-      <div class="wireframe-label">V2 — "Occasion-Led" (Shipped ✓)</div>
-      <svg viewBox="0 0 340 500" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;background:#FAFAFA;">
-        <rect x="20" y="16" width="300" height="468" rx="16" fill="white" stroke="#C9973A" stroke-width="1.5"/>
-        <rect x="20" y="16" width="300" height="32" rx="16" fill="#FDF0E0"/>
-        <rect x="20" y="32" width="300" height="16" fill="#FDF0E0"/>
-        <text x="35" y="37" font-size="8" fill="#888">9:41</text>
-        <text x="290" y="37" text-anchor="end" font-size="8" fill="#888">●●●</text>
-        <!-- Greeting -->
-        <text x="36" y="68" font-size="11" fill="#2D1B0E" font-weight="600">Namaste, Priya 🙏</text>
-        <text x="36" y="83" font-size="8.5" fill="#8C7355">What brings you here today?</text>
-        <!-- Occasion chips -->
-        <text x="36" y="104" font-size="9" fill="#C9973A" font-weight="600">SELECT YOUR OCCASION</text>
-        <!-- Row 1 -->
-        <rect x="36" y="110" width="88" height="38" rx="10" fill="#FFF3E5" stroke="#E8740C" stroke-width="1.2"/>
-        <text x="80" y="127" text-anchor="middle" font-size="11">🎂</text>
-        <text x="80" y="140" text-anchor="middle" font-size="7.5" fill="#E8740C" font-weight="600">Birthday</text>
-        <rect x="132" y="110" width="88" height="38" rx="10" fill="#F5F0EB" stroke="#DDD" stroke-width="1"/>
-        <text x="176" y="127" text-anchor="middle" font-size="11">💒</text>
-        <text x="176" y="140" text-anchor="middle" font-size="7.5" fill="#666">Anniversary</text>
-        <rect x="228" y="110" width="88" height="38" rx="10" fill="#F5F0EB" stroke="#DDD" stroke-width="1"/>
-        <text x="272" y="127" text-anchor="middle" font-size="11">🏠</text>
-        <text x="272" y="140" text-anchor="middle" font-size="7.5" fill="#666">Griha Pravesh</text>
-        <!-- Row 2 -->
-        <rect x="36" y="154" width="88" height="38" rx="10" fill="#F5F0EB" stroke="#DDD" stroke-width="1"/>
-        <text x="80" y="171" text-anchor="middle" font-size="11">🙏</text>
-        <text x="80" y="184" text-anchor="middle" font-size="7.5" fill="#666">Shraddha</text>
-        <rect x="132" y="154" width="88" height="38" rx="10" fill="#F5F0EB" stroke="#DDD" stroke-width="1"/>
-        <text x="176" y="171" text-anchor="middle" font-size="11">👶</text>
-        <text x="176" y="184" text-anchor="middle" font-size="7.5" fill="#666">Namkaran</text>
-        <rect x="228" y="154" width="88" height="38" rx="10" fill="#F5F0EB" stroke="#DDD" stroke-width="1"/>
-        <text x="272" y="171" text-anchor="middle" font-size="11">➕</text>
-        <text x="272" y="184" text-anchor="middle" font-size="7.5" fill="#666">More...</text>
-        <!-- Suggested poojas appear below -->
-        <line x1="36" y1="204" x2="304" y2="204" stroke="#E8C98033" stroke-width="1"/>
-        <text x="36" y="222" font-size="9" fill="#C9973A" font-weight="600">SUGGESTED FOR BIRTHDAY</text>
-        <rect x="36" y="228" width="268" height="56" rx="8" fill="#FFF8EE" stroke="#E8C980" stroke-width="1"/>
-        <rect x="44" y="236" width="40" height="40" rx="6" fill="#E8740C22"/>
-        <text x="64" y="262" text-anchor="middle" font-size="13">🛕</text>
-        <text x="92" y="247" font-size="9" fill="#2D1B0E" font-weight="600">Satyanarayan Katha</text>
-        <text x="92" y="260" font-size="7.5" fill="#8C7355">Most booked for birthdays · ₹1,100</text>
-        <rect x="246" y="245" width="12" height="12" rx="3" fill="#2E9E5A"/>
-        <text x="252" y="255" text-anchor="middle" font-size="7" fill="white">✓</text>
-        <text x="260" y="255" font-size="7" fill="#2E9E5A">Verified</text>
-        <rect x="36" y="290" width="268" height="56" rx="8" fill="#F9F5EE" stroke="#EEE" stroke-width="1"/>
-        <rect x="44" y="298" width="40" height="40" rx="6" fill="#C9973A22"/>
-        <text x="64" y="324" text-anchor="middle" font-size="13">🪔</text>
-        <text x="92" y="309" font-size="9" fill="#2D1B0E" font-weight="600">Ganesh Puja + Aarti</text>
-        <text x="92" y="322" font-size="7.5" fill="#8C7355">Auspicious start · ₹800</text>
-        <!-- CTA -->
-        <rect x="36" y="360" width="268" height="36" rx="10" fill="#E8740C"/>
-        <text x="170" y="382" text-anchor="middle" font-size="10" fill="white" font-weight="600">Continue with Birthday Puja →</text>
-        <!-- Success tag -->
-        <rect x="36" y="408" width="268" height="34" rx="6" fill="#EBF7EE"/>
-        <text x="170" y="429" text-anchor="middle" font-size="8.5" fill="#2E9E5A">✅ Completion rate improved to 71%</text>
-        <!-- steps indicator -->
-        <text x="170" y="466" text-anchor="middle" font-size="8" fill="#C9973A">Step 1 of 3 — Choose Occasion</text>
-      </svg>
-    </div>
+    <img 
+      src="Wireframe.png" 
+      alt="Wireframe Comparison"
+      style="width:100%; display:block; border-radius:10px;"
+    >
+
   </div>
 
-  <p style="color:#4A3828;font-size:0.92rem;margin-top:4px;text-align:center;opacity:0.7;">Left: V1 overwhelmed users with 847 unfiltered items. Right: V2 led with context — users immediately felt understood.</p>
 </div>
 
 <!-- 4. SOLUTION -->
