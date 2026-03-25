@@ -1099,100 +1099,16 @@
 
   <!-- User Journey Map SVG -->
   <div class="journey-wrap">
-    <div class="journey-header">
-      <h4>User Journey Map — "Book a Pooja Remotely"</h4>
-    </div>
-    <svg viewBox="0 0 960 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;font-family:'Chivo',sans-serif;">
-      <!-- Background -->
-      <rect width="960" height="340" fill="#FEFAF4"/>
-      <!-- Stage columns -->
-      <rect x="0" y="0" width="160" height="340" fill="#FDF6EC"/>
-      <rect x="160" y="0" width="1" height="340" fill="#E8C98033"/>
-      <rect x="320" y="0" width="1" height="340" fill="#E8C98033"/>
-      <rect x="480" y="0" width="1" height="340" fill="#E8C98033"/>
-      <rect x="640" y="0" width="1" height="340" fill="#E8C98033"/>
-      <rect x="800" y="0" width="1" height="340" fill="#E8C98033"/>
-
-      <!-- Stage headers -->
-      <text x="80" y="28" text-anchor="middle" font-size="9" fill="#8C7355" letter-spacing="1.5" font-weight="500">AWARENESS</text>
-      <text x="240" y="28" text-anchor="middle" font-size="9" fill="#8C7355" letter-spacing="1.5" font-weight="500">DISCOVERY</text>
-      <text x="400" y="28" text-anchor="middle" font-size="9" fill="#8C7355" letter-spacing="1.5" font-weight="500">EVALUATION</text>
-      <text x="560" y="28" text-anchor="middle" font-size="9" fill="#8C7355" letter-spacing="1.5" font-weight="500">BOOKING</text>
-      <text x="720" y="28" text-anchor="middle" font-size="9" fill="#8C7355" letter-spacing="1.5" font-weight="500">EXPERIENCE</text>
-      <text x="880" y="28" text-anchor="middle" font-size="9" fill="#8C7355" letter-spacing="1.5" font-weight="500">POST-RITUAL</text>
-      <line x1="0" y1="36" x2="960" y2="36" stroke="#E8C980" stroke-width="0.5"/>
-
-      <!-- Row labels -->
-      <rect x="0" y="36" width="960" height="1" fill="#E8C98022"/>
-      <!-- Thinking row -->
-      <text x="8" y="68" font-size="8.5" fill="#C9973A" font-weight="600" letter-spacing="0.5">THINKING</text>
-      <text x="80" y="68" text-anchor="middle" font-size="8" fill="#5A4030" width="130">"Dad's birthday — I should arrange a special puja at Kashi"</text>
-      <text x="240" y="62" text-anchor="middle" font-size="8" fill="#5A4030">"Let me search for</text>
-      <text x="240" y="74" text-anchor="middle" font-size="8" fill="#5A4030">online pooja booking"</text>
-      <text x="400" y="62" text-anchor="middle" font-size="8" fill="#5A4030">"Is this platform even</text>
-      <text x="400" y="74" text-anchor="middle" font-size="8" fill="#5A4030">legit? Who is the pandit?"</text>
-      <text x="560" y="62" text-anchor="middle" font-size="8" fill="#5A4030">"Will I get proof it</text>
-      <text x="560" y="74" text-anchor="middle" font-size="8" fill="#5A4030">actually happened?"</text>
-      <text x="720" y="62" text-anchor="middle" font-size="8" fill="#5A4030">"I can see it happening</text>
-      <text x="720" y="74" text-anchor="middle" font-size="8" fill="#5A4030">live — this feels real"</text>
-      <text x="880" y="62" text-anchor="middle" font-size="8" fill="#5A4030">"I can share this with</text>
-      <text x="880" y="74" text-anchor="middle" font-size="8" fill="#5A4030">the whole family!"</text>
-      <line x1="0" y1="86" x2="960" y2="86" stroke="#E8C98020" stroke-width="1"/>
-
-      <!-- Actions row -->
-      <text x="8" y="112" font-size="8.5" fill="#C9973A" font-weight="600" letter-spacing="0.5">ACTIONS</text>
-      <text x="80" y="110" text-anchor="middle" font-size="8" fill="#5A4030">Searches Google</text>
-      <text x="80" y="122" text-anchor="middle" font-size="8" fill="#5A4030">for "book pooja online"</text>
-      <text x="240" y="110" text-anchor="middle" font-size="8" fill="#5A4030">Lands on EkIshwar,</text>
-      <text x="240" y="122" text-anchor="middle" font-size="8" fill="#5A4030">selects "Birthday" occasion</text>
-      <text x="400" y="110" text-anchor="middle" font-size="8" fill="#5A4030">Reads temple profile,</text>
-      <text x="400" y="122" text-anchor="middle" font-size="8" fill="#5A4030">views pandit verified badge</text>
-      <text x="560" y="110" text-anchor="middle" font-size="8" fill="#5A4030">Selects date, adds</text>
-      <text x="560" y="122" text-anchor="middle" font-size="8" fill="#5A4030">samagri, pays securely</text>
-      <text x="720" y="110" text-anchor="middle" font-size="8" fill="#5A4030">Watches live darshan,</text>
-      <text x="720" y="122" text-anchor="middle" font-size="8" fill="#5A4030">gets push notification</text>
-      <text x="880" y="110" text-anchor="middle" font-size="8" fill="#5A4030">Receives summary card,</text>
-      <text x="880" y="122" text-anchor="middle" font-size="8" fill="#5A4030">shares on WhatsApp</text>
-      <line x1="0" y1="136" x2="960" y2="136" stroke="#E8C98020" stroke-width="1"/>
-
-      <!-- Emotion curve row label -->
-      <text x="8" y="162" font-size="8.5" fill="#C9973A" font-weight="600" letter-spacing="0.5">EMOTION</text>
-      <!-- Emotion curve background band -->
-      <rect x="0" y="140" width="960" height="100" fill="#FFF8F0"/>
-      <!-- Curve path — goes low in eval/booking (doubt), peaks at experience/post -->
-      <path d="M 80,190 C 140,185 180,195 240,188 C 300,180 330,210 400,215 C 450,218 510,220 560,212 C 620,198 660,170 720,155 C 780,140 840,145 880,148"
-            fill="none" stroke="#E8740C" stroke-width="2.5" stroke-linecap="round"/>
-      <!-- Dots on curve -->
-      <circle cx="80" cy="190" r="5" fill="#E8740C"/>
-      <circle cx="240" cy="188" r="5" fill="#E8740C"/>
-      <circle cx="400" cy="215" r="5" fill="#E05050"/>
-      <circle cx="560" cy="212" r="5" fill="#E05050"/>
-      <circle cx="720" cy="155" r="5" fill="#2E9E5A"/>
-      <circle cx="880" cy="148" r="5" fill="#2E9E5A"/>
-      <!-- Emotion labels -->
-      <text x="80" y="235" text-anchor="middle" font-size="8" fill="#8C7355">Hopeful</text>
-      <text x="240" y="233" text-anchor="middle" font-size="8" fill="#8C7355">Curious</text>
-      <text x="400" y="238" text-anchor="middle" font-size="8" fill="#C04040">Anxious 😟</text>
-      <text x="560" y="236" text-anchor="middle" font-size="8" fill="#C04040">Uncertain 😟</text>
-      <text x="720" y="230" text-anchor="middle" font-size="8" fill="#2E9E5A">Delighted 😊</text>
-      <text x="880" y="228" text-anchor="middle" font-size="8" fill="#2E9E5A">Joyful 🙏</text>
-      <!-- Pain point callout -->
-      <rect x="345" y="244" width="230" height="24" rx="4" fill="#FDECEA"/>
-      <text x="460" y="260" text-anchor="middle" font-size="8" fill="#C04040" font-weight="600">⚠ Critical Drop Zone — Trust must be built here</text>
-      <line x1="400" y1="220" x2="400" y2="244" stroke="#C04040" stroke-width="1" stroke-dasharray="3,2"/>
-      <line x1="560" y1="216" x2="560" y2="244" stroke="#C04040" stroke-width="1" stroke-dasharray="3,2"/>
-
-      <!-- Opportunities row -->
-      <line x1="0" y1="276" x2="960" y2="276" stroke="#E8C98020" stroke-width="1"/>
-      <text x="8" y="296" font-size="8.5" fill="#C9973A" font-weight="600" letter-spacing="0.5">OPPORTUNITY</text>
-      <text x="240" y="294" text-anchor="middle" font-size="7.5" fill="#5A4030">Occasion-led entry</text>
-      <text x="400" y="294" text-anchor="middle" font-size="7.5" fill="#5A4030">Verified badges + reviews</text>
-      <text x="560" y="294" text-anchor="middle" font-size="7.5" fill="#5A4030">3-step streamlined flow</text>
-      <text x="720" y="294" text-anchor="middle" font-size="7.5" fill="#5A4030">Live darshan stream</text>
-      <text x="880" y="294" text-anchor="middle" font-size="7.5" fill="#5A4030">Shareable summary card</text>
-    </svg>
+  <div class="journey-header">
+    <h4>User Journey Map — "Book a Pooja Remotely"</h4>
   </div>
 
+  <img 
+    src="map.png" 
+    alt="User Journey Map"
+    style="width:100%; display:block;"
+  >
+</div>
   <!-- Wireframes -->
   <h3 style="font-family:var(--serif);font-size:1.45rem;font-weight:600;color:var(--ink);margin:40px 0 12px;">Lo-Fi Wireframes — Before &amp; After</h3>
   <p style="color:#4A3828;font-size:0.95rem;margin-bottom:28px;">Two key flows tested in round 1. Left shows the original service-browsing entry; right shows the occasion-led redesign that emerged from testing.</p>
